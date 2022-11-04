@@ -1,0 +1,23 @@
+.HTML{
+    position:absolute;
+    width:25%;
+    height:1000px;
+    left:6.25%;
+    background-color: aqua;
+}
+
+.CSS{
+    position:absolute;
+    width:25%;
+    height:1000px;
+    left:37.5%;
+    background-color: aqua;
+}
+
+.JS{
+    position:absolute;
+    width:25%;
+    height:1000px;
+    left:68.75%;
+    background-color: aqua;
+}   
