@@ -10,15 +10,18 @@
     <h3>Codepen Converter</h3>
     <p>Type the HTML, CSS and JS straight from Codepen into the inputs below.</p>
     <form>
-        <textarea class="HTML" name="HTML" rows="40" wrap="hard"></textarea>
+        <textarea class="HTML" name="HTML" id="HTML" rows="40" wrap="hard">HTML</textarea>
+        <textarea class="CSS" name="CSS" id="CSS" rows="40" wrap="hard">CSS</textarea>
+        <textarea class="JS" name="JS" id="JS" rows="40" wrap="hard">JS</textarea>
     </form>
     
-    <div class="CSS">
-        CSS
-    </div>
-    <div class="JS">
-        JS
-    </div>
+    
     <script src="script.js"></script>
+    <div class="Libraries">
+        <button type="button" id="addLib" class="addLib"></button>
+        <button type="button" id="subLib" class="subLib"></button>
+        <div class=""></div>
+        <h3></h3>
+    </div>
 </body>
 </html>

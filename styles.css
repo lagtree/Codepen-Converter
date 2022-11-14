@@ -2,7 +2,7 @@
     position:absolute;
     width:25%;
     left:6.25%;
-    background-color: aqua;
+    height: 1000px;
 }
 
 .CSS{
@@ -10,7 +10,6 @@
     width:25%;
     height:1000px;
     left:37.5%;
-    background-color: aqua;
 }
 
 .JS{
@@ -18,5 +17,23 @@
     width:25%;
     height:1000px;
     left:68.75%;
-    background-color: aqua;
 }   
+
+.Libraries{
+    position:absolute;
+    width:90%;
+    left:10%;
+    top:1110px;
+}
+
+.addLib{
+    background-color:green;
+    height:30px;
+    width:30px;
+}
+
+.subLib{
+    background-color:red;
+    height:30px;
+    width:30px;
+}
